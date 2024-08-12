@@ -1,0 +1,25 @@
+{
+  "name": "dev-http-proxy",
+  "version": "1.0.0",
+  "description": "A proxy service for local development",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanseeker/dev-http-proxy.git"
+  },
+  "author": "himanseeker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himanseeker/dev-http-proxy/issues"
+  },
+  "homepage": "https://github.com/himanseeker/dev-http-proxy#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
